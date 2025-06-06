@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/login_background"
+    android:padding="20dp">
+
+    <!-- OTP Title -->
+    <TextView
+        android:id="@+id/otp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- OTP Instruction -->
+    <TextView
+        android:id="@+id/otp_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We've sent a 6-digit code to your email/phone. Enter below:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- OTP Input Field -->
+    <EditText
+        android:id="@+id/otp_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter OTP"
+        android:background="@drawable/edittext_background"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:inputType="numberPassword"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Verify Button -->
+    <Button
+        android:id="@+id/verify_otp_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Verify OTP"
+        android:textSize="18sp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Resend OTP Button -->
+    <Button
+        android:id="@+id/resend_otp_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Resend OTP"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/link_blue"
+        android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

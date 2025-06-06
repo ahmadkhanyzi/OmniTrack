@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.OmniTrack" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+</resources>

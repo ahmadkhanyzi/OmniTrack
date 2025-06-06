@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461505467740",
+    "firebase_url": "https://omni-track-ae57d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "omni-track-ae57d",
+    "storage_bucket": "omni-track-ae57d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461505467740:android:e9d807f212f18b3b1c1d99",
+        "android_client_info": {
+          "package_name": "com.example.omnitrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461505467740-718mnkv8s9ump6rso49eabshsih0qsd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omnitrack",
+            "certificate_hash": "81ba59a8144169a27d810908718c1b21cac7d778"
+          }
+        },
+        {
+          "client_id": "461505467740-a69vrirs3atsjvkpd10jm5kq05rtljve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDqjyk3oMoPPaH4wkNBrV4hA6KxqvKL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461505467740-a69vrirs3atsjvkpd10jm5kq05rtljve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
